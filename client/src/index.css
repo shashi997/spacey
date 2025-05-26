@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* Define Nunito Regular */
+@font-face {
+    font-family: 'Nunito'; /* This is the name you'll use in your CSS */
+    src: url('/fonts/Nunito-Regular.ttf') format('truetype');
+    font-weight: 400; /* Corresponds to 'Regular' */
+    font-style: normal;
+    font-display: swap; /* Helps with font loading experience */
+  }
+  
+  /* Define Nunito Bold */
+  @font-face {
+    font-family: 'Nunito'; /* Use the same family name if it's the same font family */
+    src: url('/fonts/Nunito-Bold.ttf') format('truetype');
+    font-weight: 700; /* Corresponds to 'Bold' */
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* You might want to define a base font for your whole app */
+  body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400; 
+  }
+
+  /* Heading styles */
+  h1, h2, h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700; /* Use Bold for all headings */
+  }
+
+  .text-regular {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+  }
+
+  .text-bold {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+  }
